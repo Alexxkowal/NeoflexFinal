@@ -6,8 +6,7 @@ import org.neoflex.service.VacationPayService;
 
 @RestController
 @RequestMapping("/calculate")
-class VacationPayController {
-
+public class VacationPayController {
     private final VacationPayService vacationPayService;
 
     public VacationPayController(VacationPayService vacationPayService) {
